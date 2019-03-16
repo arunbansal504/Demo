@@ -17,4 +17,9 @@ boolean expected = true;
 public void isPlaindromeTest(){
 	assertEquals(expected, app.isPalindrome(input1));
 }
+
+@Test
+public void isNotPlaindromeTest(){
+	assertEquals(false,app.isPalindrome(input1));
+}
 }
