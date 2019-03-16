@@ -1,9 +1,5 @@
 package DevOps.demo;
 
-/**
- * Hello world!
- *
- */
 public class App {
 	public boolean isPalindrome(String input) {
 		if (input == null) {
