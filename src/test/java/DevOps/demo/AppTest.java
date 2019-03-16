@@ -24,7 +24,7 @@ public void isNotPlaindromeTest(){
 	assertEquals(false,app.isPalindrome(input2));
 }
 
-@Test
+@Test(expected = IllegalArgumentException.class)
 public void isNullPlaindromeTest(){
 	assertEquals(false,app.isPalindrome(input3));
 }

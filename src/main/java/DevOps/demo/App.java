@@ -22,8 +22,4 @@ public class App {
 		}
 		return rev;
 	}
-
-	public static void main(String[] args) {
-
-	}
 }
