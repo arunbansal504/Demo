@@ -23,4 +23,10 @@ public void isPlaindromeTest(){
 public void isNotPlaindromeTest(){
 	assertEquals(false,app.isPalindrome(input2));
 }
+
+@Test
+public void isNullPlaindromeTest(){
+	assertEquals(false,app.isPalindrome(input3));
+}
+
 }
