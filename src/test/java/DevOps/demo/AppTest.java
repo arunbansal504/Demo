@@ -10,16 +10,17 @@ import org.junit.Test;
 public class AppTest {
 	
 String input1 = "noon";
+String input2 = "moon";
+String input3 = null;
 App app = new App();
-boolean expected = true;
 
 @Test
 public void isPlaindromeTest(){
-	assertEquals(expected, app.isPalindrome(input1));
+	assertEquals(true, app.isPalindrome(input1));
 }
 
 @Test
 public void isNotPlaindromeTest(){
-	assertEquals(false,app.isPalindrome(input1));
+	assertEquals(false,app.isPalindrome(input2));
 }
 }
