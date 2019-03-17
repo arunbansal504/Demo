@@ -9,8 +9,8 @@ import org.junit.Test;
  */
 public class AppTest {
 
-	String input1 = "noon";
-	String input2 = "moon";
+	String input1 = "racecar";
+	String input2 = "WILP";
 	String input3 = null;
 	App app = new App();
 
