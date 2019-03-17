@@ -14,6 +14,7 @@ public class AppTest {
 	String input3 = null;
 	App app = new App();
 
+	
 	@Test
 	public void isPlaindromeTest() {
 		assertEquals(true, app.isPalindrome(input1));
