@@ -17,5 +17,6 @@ public class App {
 			rev = rev + input.charAt(i);
 		}
 		return rev;
+		
 	}
 }
